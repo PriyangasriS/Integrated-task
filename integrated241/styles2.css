@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("imagec.jpg");
+}
+
+.container {
+    padding: 18px;
+    padding-top: 50px;
+}
+
+/* Header Styles */
+header {
+    background-color: #555;
+    font-family: Arial, Helvetica;
+    color: #fcdef7;
+}
+
+
+/* Menu Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #333;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
